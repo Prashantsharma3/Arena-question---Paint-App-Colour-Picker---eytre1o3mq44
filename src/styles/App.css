@@ -20,7 +20,7 @@ html, body {
     top: -15%;
 }
 
-.holder {
+.row {
     display: flex;
     margin: auto;
     width: fit-content;
