@@ -8,7 +8,6 @@ class Selection extends React.Component{
             selectionStyle:{background:''}
         }
     }
-    //ignore
     updateSelectionStyle=(value)=>{
         this.setState({selectionStyle: value})
     }
@@ -17,7 +16,7 @@ class Selection extends React.Component{
             // this.setState({selectionStyle: this.props.nextBackground})
             this.props.applyColor(this.updateSelectionStyle)
         }}>
-
+            <h2 className="subheading">Selection</h2>
         </div>
     }
 }
